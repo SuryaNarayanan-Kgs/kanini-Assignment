@@ -18,10 +18,10 @@ function App() {
       {/* <Students /> */}
       <BrowserRouter>
         <Routes>
-          {/* <Route path="/" element={<Navigate to="/DepartmentDetails" />}></Route> */}
-          {/* <Route path="/DepartmentDetails" element={<DepartmentDetails />} />
+          <Route path="/" element={<Navigate to="/DepartmentDetails" />}></Route>
+          <Route path="/DepartmentDetails" element={<DepartmentDetails />} />
           <Route path="/AddDepartment" element={<AddDepartment />} />
-          <Route path="/UpdateDepartment" element={<UpdateDepartment />} /> */}
+          <Route path="/UpdateDepartment" element={<UpdateDepartment />} />
           <Route path="/" element={<Navigate to="/StudentsDetails" />}></Route>
           <Route path="/StudentsDetails" element={<StudentsDetails />} />
           <Route path="/AddStudents" element={<AddStudents />} />
